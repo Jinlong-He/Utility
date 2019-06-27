@@ -107,7 +107,7 @@ public:
     template<class T>
     static void Permutation_ALL(unordered_set<T>& datas, vector<vector<T> >& permit) {
         vector<T> dataVec(datas.begin(), datas.end());
-        Permutation(dataVec, permit);
+        Permutation_ALL(dataVec, permit);
     }
 
     template<class T>
